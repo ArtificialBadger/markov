@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <Authors>John Gietzen and Contributors</Authors>
+    <Authors>Isaac Zais, John Gietzen and Contributors</Authors>
     <Copyright>Copyright © 2018-2020 $(Authors)</Copyright>
     <Product>Markov</Product>
     <NeutralLanguage>en-US</NeutralLanguage>

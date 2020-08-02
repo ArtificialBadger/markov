@@ -2,19 +2,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\SharedAssemblyInfo.props" />
   <PropertyGroup>
+    <PackageId>Standard.Markov</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>ArtificalBadger, otac0n</Authors>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <CodeAnalysisRuleSet>Markov.ruleset</CodeAnalysisRuleSet>
     <DebugType>Full</DebugType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Description>A Markov chain library, made to support scenarios anywhere from text generation to stock market simulation.</Description>
-    <PackageIconUrl>https://raw.github.com/otac0n/markov/master/media/Markov.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.github.com/ArtificialBadger/markov/master/media/Markov.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/otac0n/markov</PackageProjectUrl>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <PackageProjectUrl>https://github.com/ArtificialBadger/markov</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <PackageReference Include="FixMe" Version="1.0.0" PrivateAssets="All" />
-    <PackageReference Include="GitVersionTask" Version="5.0.0-beta3-4" />
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.8" PrivateAssets="All" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" PrivateAssets="All" />
   </ItemGroup>
