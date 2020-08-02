@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\SharedAssemblyInfo.props" />
   <PropertyGroup>
@@ -6,7 +6,7 @@
     <DebugType>Full</DebugType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <TargetFrameworks>net35;netcoreapp2.0</TargetFrameworks>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Description>A Markov chain library, made to support scenarios anywhere from text generation to stock market simulation.</Description>
     <PackageIconUrl>https://raw.github.com/otac0n/markov/master/media/Markov.png</PackageIconUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -14,6 +14,7 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,5 +30,5 @@
   <ItemGroup>
     <AdditionalFiles Include="Markov.ruleset" />
     <AdditionalFiles Include="..\stylecop.json" Link="stylecop.json" />
-  </ItemGroup>
+  </ItemGroup>                    
 </Project>
